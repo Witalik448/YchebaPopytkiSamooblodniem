@@ -30,6 +30,7 @@ public class Human {
             default:
                 System.out.println("Даня спит дальше");
                 break;
+
         }
     }
 }
