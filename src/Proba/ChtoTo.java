@@ -5,7 +5,7 @@ public class ChtoTo {
         int x = 5;
         String s = "GJKGKJGKGJ";
 
-
+        System.out.println("Салам алейкум");
     }
 
 }
