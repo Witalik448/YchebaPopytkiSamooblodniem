@@ -2,16 +2,17 @@ package Proba;
 
 import java.util.Scanner;
 
+//Программа должна запрашивать у пользователя положительное число, пока он не введёт корректное значение.
 public class DoWhile {
-    //Программа должна запрашивать у пользователя положительное число, пока он не введёт корректное значение.
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        System.out.println("Введи положительное число!!!");
-        int chislo = s.nextByte();
+        Scanner scanner = new Scanner(System.in);
+        int chislo;
+
         do {
-            System.out.println("Дурень это разве положительное число?");
-            chislo = s.nextByte();
-        } while (chislo <=0);
-        System.out.println("Леу мужчина ");
+            System.out.println("Введи положительное ");
+            chislo = scanner.nextInt();
+        }while (chislo <=0);
+        System.out.println("Респект дон");
     }
 }
+
